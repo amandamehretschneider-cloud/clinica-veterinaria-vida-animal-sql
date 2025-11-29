@@ -38,7 +38,6 @@ WHERE status = 'agendada'
   AND id_consulta = 4;
 
 -- 3) Excluir um pet que foi removido do cadastro
--- (exemplo didático: apagar vínculos respeitando integridade)
 
 -- remover o prontuário do pet
 DELETE FROM PRONTUARIO
